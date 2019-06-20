@@ -50,7 +50,46 @@ class _HomeState extends State<Home> {
               onTap: (){
                 Navigator.of(context).pop();
               },
-            )
+            ),
+
+            new ListTile(
+              title: new Text("Second Page"),
+              leading: new Icon(Icons.camera,color: Colors.deepOrange,),
+              onTap: (){
+                Navigator.of(context).pop();
+              },
+            ),
+
+            new ListTile(
+              title: new Text("Third Page"),
+              leading: new Icon(Icons.cake,color: Colors.indigo,),
+              onTap: (){
+                Navigator.of(context).pop();
+              },
+            ),
+
+            new ListTile(
+              title: new Text("Fourth Page"),
+              leading: new Icon(Icons.image,color: Colors.red,),
+              onTap: (){
+                Navigator.of(context).pop();
+              },
+            ),
+
+            new ListTile(
+              title: new Text("Fifth Page"),
+              leading: new Icon(Icons.album,color: Colors.green,),
+              onTap: (){
+                Navigator.of(context).pop();
+              },
+            ),
+            new ListTile(
+              title: new Text("Sixth Page"),
+              leading: new Icon(Icons.add,color: Colors.deepOrange,),
+              onTap: (){
+                Navigator.of(context).pop();
+              },
+            ),
 
 
           ],
