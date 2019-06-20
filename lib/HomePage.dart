@@ -38,10 +38,20 @@ class _HomeState extends State<Home> {
 
             new UserAccountsDrawerHeader(
                 accountName: new Text("Code With YDC"),
-                accountEmail: new Text("ydc@gmail.com")
+                accountEmail: new Text("ydc@gmail.com"),
+              decoration: new BoxDecoration(
+                color: Colors.green
+              ),
             ),
 
-            
+            new ListTile(
+              title: new Text("Frist Page"),
+              leading: new Icon(Icons.title,color: Colors.deepPurple,),
+              onTap: (){
+                Navigator.of(context).pop();
+              },
+            )
+
 
           ],
         ),
@@ -233,7 +243,7 @@ class _HomeState extends State<Home> {
                               child: new Text("Payment: \$250",
                               style: TextStyle(
                                 fontSize: 19.0,
-                                color: Colors.pink
+                                  color: Colors.white
                               ),
                               ),
                             )
