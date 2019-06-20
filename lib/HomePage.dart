@@ -292,7 +292,7 @@ class _HomeState extends State<Home> {
                               child: new Text("Payment: \$550",
                                 style: TextStyle(
                                     fontSize: 19.0,
-                                    color: Colors.pink
+                                    color: Colors.white
                                 ),
                               ),
                             )
