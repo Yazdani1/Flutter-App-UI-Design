@@ -30,6 +30,18 @@ class _HomeState extends State<Home> {
 
       ),//appbar end
 
+        //drawer
+
+      drawer: new Drawer(
+        child: new ListView(
+          children: <Widget>[
+            
+
+          ],
+        ),
+      ),
+
+
       body: new ListView(
         children: <Widget>[
 
