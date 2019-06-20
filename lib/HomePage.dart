@@ -35,6 +35,12 @@ class _HomeState extends State<Home> {
       drawer: new Drawer(
         child: new ListView(
           children: <Widget>[
+
+            new UserAccountsDrawerHeader(
+                accountName: new Text("Code With YDC"),
+                accountEmail: new Text("ydc@gmail.com")
+            ),
+
             
 
           ],
