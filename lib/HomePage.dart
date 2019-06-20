@@ -128,7 +128,6 @@ class _HomeState extends State<Home> {
                           ),
                         ),
                       ),
-                      
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: new Text("Loren Ipsum",
